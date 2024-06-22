@@ -1,0 +1,23 @@
+{
+  "name": "yourvids",
+  "version": "1.0.0",
+  "description": "It is a Video streaming app.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "Ashish"
+  ],
+  "author": "Ashish Chakravarti",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  }
+}
